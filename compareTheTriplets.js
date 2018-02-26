@@ -1,6 +1,6 @@
 function compareTriplets(a, b) {
-    a = a.split(' ');
-    b = b.split(' ');
+    a = a.split(" ");
+    b = b.split(" ");
 
     /* Verify all inputs have three items each */
     if (a.length !== 3 || b.length !== 3){
