@@ -1,0 +1,3 @@
+# pulse-exercises
+
+This repo contains solution to the various exercises that I did in an effort to level up my JavaScript skills...
