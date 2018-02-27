@@ -6,9 +6,8 @@ const minMaxSum = (values) => {
 
     /* Validate input is more than 0 less than 10e9 */
     const i = values.findIndex(x => x < 1 || x >= 10e9);
-    if(i !== -1) {
+    if(i !== -1)
         return "items must be less than 10e9 and more than 0";
-    }
 
     /* Sort items from smallest to largest */
     const sortedValues = values.sort((a, b) => {

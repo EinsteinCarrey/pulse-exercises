@@ -7,9 +7,9 @@ const diagonalDifference = (matrix) => {
 
     // Check that matrix has N items in each row
     const indexOfUnsymmetricalMatrix = matrix.findIndex(x => x.split(' ').length > N);
-    if(indexOfUnsymmetricalMatrix > -1 ) {
+    if(indexOfUnsymmetricalMatrix > -1 )
         return "Number of items in matrix is not equal to value N";
-    }
+
 
     // Check items in matrix are more than -101 and less than 101 and add diagonals
     let countPrim = 0, countSecondary = N, sumPrimary = 0, sumSecondary = 0;
