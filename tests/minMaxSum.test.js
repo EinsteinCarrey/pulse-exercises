@@ -1,4 +1,4 @@
-describe("Tests cases for compareTheTriplets", () => {
+describe("Tests cases for minMaxSum", () => {
 
     const minMaxSum = require("../src/minMaxSum");
     const values1 = "5 6 7 20 40 10 3 4";

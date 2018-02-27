@@ -1,4 +1,4 @@
-function minMaxSum(values) {
+const minMaxSum = (values) => {
     values = values.split(" ").map(Number);
 
     /* validate input has five items */
@@ -33,6 +33,6 @@ function minMaxSum(values) {
 
     return `${minSum} ${maxSum}`;
 
-}
+};
 
 module.exports = minMaxSum;

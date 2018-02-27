@@ -1,4 +1,4 @@
-function compareTriplets(a, b) {
+const compareTriplets = (a, b) => {
     a = a.split(" ");
     b = b.split(" ");
 
@@ -26,8 +26,8 @@ function compareTriplets(a, b) {
         return "All numbers in the parameter must be positive integers";
     }
 
+    /* Calculate points earned */
     let output = [0, 0];
-
     a.map((value, index)=>{
         if(value === b[index]) return;
 
@@ -37,6 +37,6 @@ function compareTriplets(a, b) {
 
     return output.join(" ");
 
-}
+};
 
 module.exports = compareTriplets;

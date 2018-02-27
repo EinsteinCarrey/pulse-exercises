@@ -1,4 +1,4 @@
-function diagonalDifference(matrix) {
+const diagonalDifference = (matrix) => {
     matrix = matrix.split("\r\n");
     const N = parseInt(matrix[0]);
 
@@ -38,6 +38,6 @@ function diagonalDifference(matrix) {
 
     return sumPrimary > sumSecondary ? sumPrimary - sumSecondary : sumSecondary - sumPrimary;
 
-}
+};
 
 module.exports = diagonalDifference;
