@@ -1,3 +1,7 @@
+/**
+ * Removes duplicate characters that appear in multiples of two
+ * eg: input "aabcc" will output "b"
+ */
 const recursivelyRemoveDuplicates = (characterArray) =>{
     characterArray.map((value, index) => {
         if(index < characterArray.length) {
