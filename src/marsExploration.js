@@ -1,3 +1,8 @@
+/**
+ * Counts number of altered letters in a sting
+ * String should only contain letters 'SOS' in that particular order
+ * eg: "SOSSOT" ouputs 1
+  */
 const countAlteredCharacters = (input) => {
 
     /* Verify string is more than 1 and less than 99 characters long */
